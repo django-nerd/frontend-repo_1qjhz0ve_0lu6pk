@@ -5,13 +5,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white overflow-x-hidden">
-      {/* Starry parallax background */}
-      <div className="pointer-events-none fixed inset-0 -z-20">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_0%,rgba(255,122,24,0.12),transparent_35%),radial-gradient(circle_at_80%_10%,rgba(255,61,0,0.12),transparent_35%)]" />
-        <div className="absolute inset-0 bg-[linear-gradient(0deg,transparent,rgba(0,0,0,0.6))]" />
-      </div>
-
+    <div className="min-h-screen text-white overflow-x-hidden">
       {/* Content sections */}
       <Hero />
       <Features />
